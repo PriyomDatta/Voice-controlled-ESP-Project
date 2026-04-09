@@ -1,6 +1,6 @@
 # Voice-controlled-ESP-Project
 
-Approach 1:- ESP will communicate with phone via Wifi(Vol_1 & Vol_2):-
+Approach 1:- ESP will communicate with phone via Wifi(Vol_1 & Vol_2)(Vol_6 -> mDNS):-
     Phone will work as access point(AP/hotspot) and ESP will work as station point(SP/will connect to hotspot)
     Problems faced:-
     a) To create a http request(http:/a.b.c.d/ledon) local IP is need to be known. a.b.c.d is assigned by AP and I could not set it for any randome phone where my application is running.
